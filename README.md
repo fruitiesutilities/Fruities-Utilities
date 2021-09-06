@@ -1,3 +1,3 @@
 # Fruities-Utilities
-
-Developers, this is made for some sort of stuff them we might need in the future.
+Credit to IndigoFiredev for making the bot!
+You can use this if you credit him and me.
