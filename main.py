@@ -24,10 +24,6 @@ async def eat(ctx, user: discord.User):
   await ctx.send(f'{message.author.send} just ate some random dude. i cant quite remember their name so ill just call them jeff')
 
 @client.command()
-async def support(ctx):
-  await ctx.send('hey there, i noticed you need support! I will now ping mods for you <@&871708353401847858>')
-
-@client.command()
 async def info(ctx):
   await ctx.send('Food world is all about trying to bring users together so that you can make friends and also enjoy your time on discord!')
 
