@@ -7,7 +7,7 @@ from keep_alive import keep_alive
 
 
 client = commands.Bot(command_prefix = '>')
-status = cycle(['simon says', 'Among us', 'Minecraft', 'no', 'nothing', 'with the mods in the closet'])
+status = cycle(['Simon Says', 'Among Us', 'Minecraft', 'No', 'Nothing', 'with the mods in the closet'])
 
 @client.event
 async def on_ready():
@@ -121,7 +121,7 @@ async def uneat(ctx, member: discord.Member):
 
 @client.command()
 async def support(ctx):
-  await ctx.send('hey there, i noticed you need support! I will now ping support for you <@&871708353401847858>')
+  await ctx.send('I think you need help! DM the bot and open a modmail ticket!')
 
 @client.command()
 async def info(ctx):
